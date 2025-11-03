@@ -23,4 +23,11 @@ class OutputViewTest {
         String result = OutputView.lottoToString(lotto);
         assertEquals("[1, 5, 10, 22, 33, 45]", result);
     }
+
+    @Test
+    void 수익률_계산() {
+        int count = 8;
+        long totalPrize = 5000;
+        assertEquals(62.5, OutputView.printYieldResult(count, totalPrize));
+    }
 }
