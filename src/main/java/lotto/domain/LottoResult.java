@@ -17,4 +17,12 @@ public class LottoResult {
         if (rank == null) return 0;
         return rankCount.getOrDefault(rank, 0);
     }
+
+    public long getTotalPrize() {
+        return totalPrize;
+    }
+
+    public Map<Rank, Integer> getRankCount() {
+        return rankCount;
+    }l
 }

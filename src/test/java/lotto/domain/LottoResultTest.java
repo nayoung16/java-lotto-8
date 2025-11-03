@@ -18,6 +18,4 @@ class LottoResultTest {
         r.addRank(Rank.MISS);
         assertEquals(0, r.getCount(Rank.MISS));
     }
-
-
 }
