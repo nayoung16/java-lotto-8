@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class InputView {
     private static final String INPUT_PRICE = "구입금액을 입력해 주세요.";
     private static final String PRICE_MSG = "개를 구매했습니다.";
-    private static final String INPUT_NUM = "당첨번호를 입력해 주세요.";
+    private static final String INPUT_NUM = "당첨 번호를 입력해 주세요.";
     private static final String INPUT_BONUS_NUM = "보너스 번호를 입력해 주세요.";
 
     public static int inputPriceAndCount() {
