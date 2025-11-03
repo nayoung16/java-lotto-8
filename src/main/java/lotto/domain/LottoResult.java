@@ -24,5 +24,5 @@ public class LottoResult {
 
     public Map<Rank, Integer> getRankCount() {
         return rankCount;
-    }l
+    }
 }
